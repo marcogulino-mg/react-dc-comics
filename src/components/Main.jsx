@@ -1,4 +1,8 @@
 //Footer.jsx
 export default function Footer() {
-  return <footer>{/* Insert Footer Content */}</footer>;
+  return (
+    <main>
+      <h2>Main Content</h2>
+    </main>
+  );
 }
