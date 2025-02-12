@@ -36,21 +36,26 @@ body {
 
 /* HEADER */
 header {
-  height: 14vh;
-  /* DEBUG */
-  background-color: rgba(255, 0, 0, 0.87);
+  height: 180px;
+  background-color: rgb(255, 255, 255);
+  color: rgba(0, 0, 0);
 }
 
 /* MAIN */
-main {
-  height: 74vh;
+.content {
+  background-color: rgba(0, 0, 0);
   /* DEBUG */
-  background-color: rgba(21, 0, 255, 0.87);
+  height: 180px;
+}
+
+.main-menu {
+  height: 230px;
+  background-color: rgb(2, 130, 249);
 }
 
 /* FOOTER */
 footer {
-  height: 12vh;
+  height: 700px;
   /* DEBUG */
-  background-color: rgba(68, 255, 0, 0.87);
+  background-color: rgb(48, 48, 48);
 }
