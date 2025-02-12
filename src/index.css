@@ -46,6 +46,7 @@ header {
   align-items: center;
 }
 
+/* LOGO */
 .logo {
   cursor: pointer;
 }
@@ -60,6 +61,26 @@ header {
 .menu-header li {
   margin: 15px;
   cursor: pointer;
+  position: relative;
+}
+
+.menu-header li:hover {
+  color: rgb(2, 130, 249);
+}
+
+.menu-header li:hover .focusLine {
+  display: block;
+  color: rgb(2, 130, 249);
+}
+
+.focusLine {
+  height: 8px;
+  width: 100%;
+  background-color: rgb(2, 130, 249);
+  position: absolute;
+  top: 84px;
+  right: 0;
+  display: none;
 }
 
 /* MAIN */

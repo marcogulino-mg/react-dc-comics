@@ -7,16 +7,36 @@ export default function Header() {
       </div>
       <div className="menu-header">
         <ul>
-          <li>CHARACTERS</li>
-          <li>COMICS</li>
-          <li>MOVIES</li>
-          <li>TV</li>
-          <li>GAMES</li>
-          <li>COLLECTIBLES</li>
-          <li>VIDEOS</li>
-          <li>FANS</li>
-          <li>NEWS</li>
-          <li>SHOP</li>
+          <li>
+            CHARACTERS <div className="focusLine"></div>
+          </li>
+          <li>
+            COMICS <div className="focusLine"></div>
+          </li>
+          <li>
+            MOVIES <div className="focusLine"></div>
+          </li>
+          <li>
+            TV <div className="focusLine"></div>
+          </li>
+          <li>
+            GAMES <div className="focusLine"></div>
+          </li>
+          <li>
+            COLLECTIBLES <div className="focusLine"></div>
+          </li>
+          <li>
+            VIDEOS <div className="focusLine"></div>
+          </li>
+          <li>
+            FANS <div className="focusLine"></div>
+          </li>
+          <li>
+            NEWS <div className="focusLine"></div>
+          </li>
+          <li>
+            SHOP <div className="focusLine"></div>
+          </li>
         </ul>
       </div>
     </header>
