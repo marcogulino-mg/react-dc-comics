@@ -1,5 +1,5 @@
 //Footer.jsx
-export default function Main() {
+export default function Footer() {
   return (
     <footer>
       <h2>Footer Content</h2>

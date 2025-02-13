@@ -1,19 +1,5 @@
 //Header.jsx
-
-const menuHeader = [
-  "CHARACTERS",
-  "COMICS",
-  "MOVIES",
-  "TV",
-  "GAMES",
-  "COLLECTIBLES",
-  "VIDEOS",
-  "FANS",
-  "NEWS",
-  "SHOP",
-];
-
-export default function Header() {
+export default function Header(props) {
   return (
     <header>
       <div className="logo">
@@ -21,9 +7,10 @@ export default function Header() {
       </div>
       <div className="menu-header">
         <ul>
-          {menuHeader.map((menu) => (
-            <li>
-              {menu} <div className="focusLine"></div>
+          {props.menuHeader.map((menu) => (
+            <li key={menu.id}>
+              <a href={menu.url}>{menu.text}</a>
+              <div className="focusLine"></div>
             </li>
           ))}
         </ul>

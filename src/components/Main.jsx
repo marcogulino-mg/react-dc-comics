@@ -2,7 +2,7 @@
 import MenuMain from "../subcomponents/Menumain";
 
 //Main.jsx
-export default function Footer() {
+export default function Main() {
   return (
     <main>
       <section className="content">
