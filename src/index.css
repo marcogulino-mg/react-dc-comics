@@ -19,6 +19,15 @@
   box-sizing: border-box;
 }
 
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -93,6 +102,34 @@ header {
 .main-menu {
   height: 230px;
   background-color: rgb(2, 130, 249);
+}
+
+.main-menu > ul {
+  width: 75%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.main-menu li {
+  list-style: none;
+  color: white;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.img-main-menu {
+  width: 60px;
+  margin-right: 16px;
+}
+
+.img-fix {
+  width: 45px;
+  margin-right: 16px;
 }
 
 /* FOOTER */
