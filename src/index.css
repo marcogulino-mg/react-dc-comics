@@ -108,7 +108,7 @@ main {
 
 /* BANNERMAIN */
 .banner-main {
-  height: 420px;
+  height: 400px;
   background-size: cover;
 }
 
@@ -138,8 +138,6 @@ main {
 .comic-card {
   width: 185px;
   cursor: pointer;
-  /* DEBUG */
-  background-color: red;
 }
 
 .photo-container {
@@ -212,4 +210,18 @@ footer {
   height: 700px;
   /* DEBUG */
   background-color: rgb(48, 48, 48);
+}
+
+/* FOOTER MENU */
+.footer-menu {
+  height: 80%;
+  /* DEBUG */
+  background-color: red;
+}
+
+/* FOOTER CTA */
+.footer-cta {
+  height: 20%;
+  /* DEBUG */
+  background-color: blue;
 }
