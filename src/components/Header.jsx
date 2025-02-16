@@ -1,10 +1,11 @@
+//Import Logo.jsx
+import Logo from "../subcomponents/Logo";
+
 //Header.jsx
 export default function Header(props) {
   return (
     <header>
-      <div className="logo">
-        <img src="./img/dc-logo.png" alt="logo DC" />
-      </div>
+      <Logo />
       <div className="menu-header">
         <ul>
           {props.menuHeader.map((menu) => (
