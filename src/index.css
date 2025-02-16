@@ -98,16 +98,56 @@ header {
 }
 
 /* MAIN */
+main {
+  background-color: rgb(28, 28, 28);
+}
+
 .content {
-  background-color: rgba(0, 0, 0);
-  /* DEBUG */
-  height: 180px;
+  background-color: rgb(28, 28, 28);
 }
 
 /* BANNERMAIN */
 .banner-main {
-  height: 100%;
+  height: 420px;
   background-size: cover;
+}
+
+/* COMICS LIST */
+.comicslist {
+  max-width: 1390px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 60px auto;
+  gap: 30px;
+}
+
+/* COMIC CARD */
+.comic-card {
+  width: 185px;
+  cursor: pointer;
+  /* DEBUG */
+  background-color: red;
+}
+
+.photo-container {
+  height: 187px;
+  width: 187px;
+  overflow: hidden;
+}
+
+.fix-image {
+  transform: scale(1.56);
+  position: relative;
+  top: 48px;
+}
+
+h4 {
+  margin-top: 15px;
+  text-align: initial;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .main-menu {
