@@ -104,6 +104,12 @@ header {
   height: 180px;
 }
 
+/* BANNERMAIN */
+.banner-main {
+  height: 100%;
+  background-size: cover;
+}
+
 .main-menu {
   height: 210px;
   background-color: rgb(2, 130, 249);
