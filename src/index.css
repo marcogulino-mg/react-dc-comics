@@ -211,16 +211,42 @@ h4 {
 
 /* FOOTER */
 footer {
-  height: 700px;
-  /* DEBUG */
-  background-color: rgb(48, 48, 48);
+  height: 630px;
 }
 
 /* FOOTER MENU */
-.footer-menu {
+.footer-menu-container {
   height: 80%;
-  /* DEBUG */
-  background-color: red;
+  background-image: /* url("../public/img/favicon.ico"), */ url("../public/img/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover, 200px;
+}
+
+.footer-menu {
+  width: 1390px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  gap: 60px;
+}
+
+.col {
+  margin-top: 50px;
+  text-align: initial;
+}
+
+.col > h2 {
+  font-size: 26px;
+}
+
+.col > ul {
+  margin: 15px 0 20px 0;
+}
+
+.col li {
+  color: grey;
+  font-size: 17px;
+  cursor: pointer;
 }
 
 /* FOOTER CTA */
