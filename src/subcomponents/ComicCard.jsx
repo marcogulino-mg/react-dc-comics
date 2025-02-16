@@ -4,7 +4,7 @@ export default function ComicCard(props) {
     <div key={comicData.id} className="comic-card">
       <div className="photo-container">
         <img
-          className={comicData.active && "fix-image"}
+          className={comicData.active ? "fix-image" : undefined}
           src={comicData.thumb}
           alt={comicData.title}
         />

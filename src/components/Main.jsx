@@ -11,7 +11,7 @@ export default function Main() {
     <main>
       <section className="content">
         <BannerMain imgurl="./img/jumbotron.jpg" />
-        <ComicsList />
+        <ComicsList sectionTitle="CURRENT SERIES" />
       </section>
       <MenuMain />
     </main>

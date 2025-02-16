@@ -114,12 +114,24 @@ main {
 
 /* COMICS LIST */
 .comicslist {
+  position: relative;
   max-width: 1390px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin: 60px auto;
   gap: 30px;
+}
+
+/* SECTION TITLE */
+.title-section {
+  padding: 7px 24px 7px 24px;
+  font-size: 23px;
+  font-weight: bold;
+  background-color: rgb(2, 130, 249);
+  position: absolute;
+  top: -86px;
+  left: 45px;
 }
 
 /* COMIC CARD */
